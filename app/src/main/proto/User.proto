@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "com.cheezycode.pagingdemo";
+option java_multiple_files = true;
+
+message UserPreference{
+
+  string name = 1;
+  int32 age = 2;
+  string email = 3;
+  string phone = 4;
+
+
+}
